@@ -50,11 +50,42 @@ img {
   
 </body>
 </html>
+<!DOCTYPE html>
+<html>
 
-.image-container {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b2/Operation_Neptune_Spear_map_of_locations.svg');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 500px;
-}
+<head>
+	<title>To set position of an image</title>
+	<style>
+		h2 {
+			color: green;
+		}
+	
+		#object1 {
+			width: 500px;
+			height: 200px;
+			background-color: green;
+			object-fit: none;
+			object-position: center top;
+		}
+
+		#object2 {
+			width: 500px;
+			height: 200px;
+			background-color: green;
+			object-fit: none;
+			object-position: 50px 30px;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>GeeksforGeeks</h2>
+	<h4>object-position Property</h4>
+	<img id="object1" src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240117104925/1.png" />
+
+	<img id="object2" src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240117104925/1.png" />
+</body>
+
+</html>
